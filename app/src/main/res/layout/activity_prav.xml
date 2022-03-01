@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".PravActivity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/button_blu"
+        android:text="назад"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="Боец - текствовая пошаговая аркада.\n
+Вы - боец, вышедший на ринг. За один ход вы можете совершить одно действие:\n
+Удар левой рукой (-1 HP);\n
+Удар правой рукой (-2 HP);\n
+Удар ногой (-3 HP);\n
+Блок;\n
+Критический удра пробивает блок по его номинальной цене, если блока не было, к урону прибавляется единица."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="824sp"
+        android:background="#000000"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="30sp"
+            android:fontFamily="monospace"
+            android:inputType="text"
+            android:longClickable="false"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FA0101"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="monospace"
+            android:inputType="text"
+            android:longClickable="false"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FA0101"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="monospace"
+            android:inputType="text"
+            android:longClickable="false"
+            android:text="Легко:"
+            android:textAlignment="center"
+            android:textColor="#12DA1A"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:textSize="24sp"
+            android:text="Медведь" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="monospace"
+            android:inputType="text"
+            android:longClickable="false"
+            android:text="Средни:"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:textSize="24sp"
+            android:text="Хабиб" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="monospace"
+            android:inputType="text"
+            android:longClickable="false"
+            android:text="Тяжело:"
+            android:textAlignment="center"
+            android:textColor="#FA1100"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:textSize="24sp"
+            android:background="@drawable/button3"
+            android:text="Фёдор Емельяненко" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/button_blu"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/btn1"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_help" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="20sp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rad"
+                android:scrollbarSize="10sp"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30sp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/_11" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
